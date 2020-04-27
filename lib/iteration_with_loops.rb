@@ -7,7 +7,7 @@ while row_index < src.count do
   inner_ele = 0
   while inner_ele < src[row_index].count do
     current_ele = src[row_index][inner_ele]
-    puts current_ele if(current_ele % 2 === 0) 
+    puts current_ele if (current_ele % 2 === 0) 
     inner_ele += 1
   end
   row_index += 1
