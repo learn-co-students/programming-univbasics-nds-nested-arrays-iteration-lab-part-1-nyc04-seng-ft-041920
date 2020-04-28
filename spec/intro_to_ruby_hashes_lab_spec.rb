@@ -17,7 +17,7 @@ describe "Write a method called \"find_even_values\"." do
       expect{find_even_values(array_2)}.to output(/10/).to_stdout
       expect{find_even_values(array_2)}.to output(/0/).to_stdout
       expect{find_even_values(array_2)}.to output(/14/).to_stdout
-      
+
       expect{find_even_values(array_3)}.to output(/86262/).to_stdout
       expect{find_even_values(array_3)}.to output(/22558/).to_stdout
       expect{find_even_values(array_3)}.to output(/66236/).to_stdout
